@@ -18,4 +18,4 @@ Démonstration
 Le projet Nile
 
 
-deuxièmement:Faire un tutorial basé sur le JFX
+deuxièmement: Faire un tutorial basé sur le JFX
