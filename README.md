@@ -3,16 +3,7 @@ adelyounes
 
 smb214
 
-Projet comprend les étapes suivantes:
- 
- Premiere: presenter et expliquer le JFX et comprend le PLAN suivants:
- 
- Présentation de JavaFX
- Solutions concurrentes
- Introduction à JavaFXScript JavaFXSDK Pre 1.0
- 
- 
- deuxièmement: Faire un tutorial basé sur le JFX
+
  
 ---
 Projet comprend les étapes suivantes:
