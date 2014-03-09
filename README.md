@@ -28,4 +28,6 @@ Premiere: presenter et expliquer le JFX  et comprend le PLAN suivants:
 
 
 
-deuxièmement: Faire un tutorial basé sur le JFX
+deuxièmement: Faire un tutorial basé sur le JFX:
+Où puis-je dessine, je peux entrer les informations et modifié par l'introduction des boîtes, et je le lance à travers le développement de code dans le NetBeans, et ce code est dans le fichier nommé " "
+
