@@ -24,6 +24,9 @@ Premiere: presenter et expliquer le JFX  et comprend le PLAN suivants:
 
 deuxièmement: Faire un tutorial basé sur le JFX:
 
-Où puis-je dessine, je peux entrer les informations et modifié par l'introduction des boîtes, et je le lance à travers le développement de code dans le NetBeans, et ce code est dans le fichier nommé "TableViewSample.java ".
-
+Où puis-je dessine, je peux entrer les informations et modifié par l'introduction des boîtes, et je le lance à travers le développement de code dans le NetBeans, et ce code est dans le fichier nommé "TableViewSample.java ",Mais comment?
+1- Ouvrir le netBeans
+2-Creer un nouveau projet: file-New Project--choisir "JavaFX-JavaFX Application" et le nommer:"TableViewSample"
+3-Copiez le code du fichier "TableViewSample.java" à cette projet.
+4-Execute ce projet.
 
