@@ -41,8 +41,8 @@ et la premiere partie de code qui fait ca est:
 
  Adding a Table
 
--import javafx.application.Application;
--import javafx.geometry.Insets;
+*'import javafx.application.Application;'
+*'import javafx.geometry.Insets;'
 -import javafx.scene.Group;
 -import javafx.scene.Scene;
 -import javafx.scene.control.Label;
