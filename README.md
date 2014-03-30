@@ -455,7 +455,7 @@ Modification des données dans le tableau:
 
 -Utilisez la méthode setCellFactory réimplémenter la cellule du tableau comme un champ de texte à l'aide de la classe TextFieldTableCell. La méthode de setOnEditCommit traite édition et attribue la valeur actualisée de la cellule correspondante de la table.
 
-"firstNameCol.setCellFactory(TextFieldTableCell.forTableColumn());
+firstNameCol.setCellFactory(TextFieldTableCell.forTableColumn());
 firstNameCol.setOnEditCommit(
     new EventHandler<CellEditEvent<Person, String>>() {
         @Override
@@ -489,4 +489,4 @@ emailCol.setOnEditCommit(
                 ).setEmail(t.getNewValue());
         }
     }
-);"
+);
