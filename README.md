@@ -39,18 +39,18 @@ Exemple définit trois colonnes pour stocker les informations suivantes dans un 
 La méthode de la classe TableView de getColumns ajoute les colonnes créées précédemment à la table. Dans vos applications, vous pouvez utiliser cette méthode pour ajouter et supprimer des colonnes.
 et la premiere partie de code qui fait ca est:
 
- Adding a Table
-
--import javafx.application.Application
--import javafx.geometry.Insets;
--import javafx.scene.Group;
--import javafx.scene.Scene;
--import javafx.scene.control.Label;
--import javafx.scene.control.TableColumn;
--import javafx.scene.control.TableView;
--import javafx.scene.layout.VBox;
--import javafx.scene.text.Font;
--import javafx.stage.Stage;
+ -Adding a Table:
+ 
+ import javafx.application.Application;
+import javafx.geometry.Insets;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
+import javafx.stage.Stage;
  
 public class TableViewSample extends Application {
  
@@ -88,6 +88,8 @@ public class TableViewSample extends Application {
         stage.show();
     }
 }
+
+
 
 -Vous pouvez gérer la visibilité des colonnes en appelant la méthode setVisible. Par exemple, si la logique de votre application nécessite cacher adresses e-mail de l'utilisateur, vous pouvez mettre en œuvre cette tâche comme suit: emailCol.setVisible (false). 
 
