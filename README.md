@@ -93,7 +93,7 @@ public class TableViewSample extends Application {
 
 Lorsque la structure de vos données nécessite une représentation plus complexe, vous pouvez créer des colonnes imbriquées. 
 
-Par exemple, supposons que les contacts dans le carnet d'adresses ont deux comptes de messagerie. Ensuite, vous avez besoin de deux colonnes pour afficher les adresses primaire et le secondaire email
+Par exemple, supposons que les contacts dans le carnet d'adresses ont deux comptes de messagerie. Ensuite, vous avez besoin de deux colonnes pour afficher les adresses primaire et le secondaire email.
 
 le code:
 TableColumn firstEmailCol = new TableColumn("Primary");
@@ -279,7 +279,7 @@ public class TableViewSample extends Application {
         }
     }
 }
-Vous pouvez utiliser les champs de texte pour saisir de nouvelles valeurs dans le Prénom, Nom, et des colonnes de messagerie. Le contrôle de zone de texte permet à votre application pour recevoir une entrée de texte à partir d'un utilisateur
+Vous pouvez utiliser les champs de texte pour saisir de nouvelles valeurs dans le Prénom, Nom, et des colonnes de messagerie. Le contrôle de zone de texte permet à votre application pour recevoir une entrée de texte à partir d'un utilisateur.
 
 final TextField addFirstName = new TextField();
 addFirstName.setPromptText("First Name");
@@ -305,7 +305,7 @@ addButton.setOnAction(new EventHandler<ActionEvent>() {
     }
 });
 
-Quand un utilisateur clique sur le bouton Ajouter, les valeurs saisies dans les champs de texte sont inclus dans un constructeur personne et ajoutés à la liste des données observables. Ainsi, la nouvelle entrée des informations de contact apparaît dans la table
+Quand un utilisateur clique sur le bouton Ajouter, les valeurs saisies dans les champs de texte sont inclus dans un constructeur personne et ajoutés à la liste des données observables. Ainsi, la nouvelle entrée des informations de contact apparaît dans la table.
 
 import javafx.application.Application;
 import javafx.beans.property.SimpleStringProperty;
@@ -453,7 +453,7 @@ Modification des données dans le tableau:
 
 -La classe TableView ne rend pas seulement des données tabulaires, mais il offre également des fonctionnalités pour le modifier. Utilisez la méthode setEditable pour permettre l'édition du contenu de la table. 
 
--Utilisez la méthode setCellFactory réimplémenter la cellule du tableau comme un champ de texte à l'aide de la classe TextFieldTableCell. La méthode de setOnEditCommit traite édition et attribue la valeur actualisée de la cellule correspondante de la table
+-Utilisez la méthode setCellFactory réimplémenter la cellule du tableau comme un champ de texte à l'aide de la classe TextFieldTableCell. La méthode de setOnEditCommit traite édition et attribue la valeur actualisée de la cellule correspondante de la table.
 
 firstNameCol.setCellFactory(TextFieldTableCell.forTableColumn());
 firstNameCol.setOnEditCommit(
