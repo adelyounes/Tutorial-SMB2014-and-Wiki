@@ -89,3 +89,15 @@ public class TableViewSample extends Application {
     }
 }
 
+-Vous pouvez gérer la visibilité des colonnes en appelant la méthode setVisible. Par exemple, si la logique de votre application nécessite cacher adresses e-mail de l'utilisateur, vous pouvez mettre en œuvre cette tâche comme suit: emailCol.setVisible (false). 
+
+Lorsque la structure de vos données nécessite une représentation plus complexe, vous pouvez créer des colonnes imbriquées. 
+
+Par exemple, supposons que les contacts dans le carnet d'adresses ont deux comptes de messagerie. Ensuite, vous avez besoin de deux colonnes pour afficher les adresses primaire et le secondaire email
+
+le code:
+TableColumn firstEmailCol = new TableColumn("Primary");
+TableColumn secondEmailCol = new TableColumn("Secondary");
+
+emailCol.getColumns().addAll(firstEmailCol, secondEmailCol);
+
