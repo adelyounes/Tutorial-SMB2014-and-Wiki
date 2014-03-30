@@ -449,10 +449,11 @@ public class FileChooserSample extends Application {
     }
 }
 
-Modification des données dans le tableau 
-La classe TableView ne rend pas seulement des données tabulaires, mais il offre également des fonctionnalités pour le modifier. Utilisez la méthode setEditable pour permettre l'édition du contenu de la table. 
+Modification des données dans le tableau:
 
-Utilisez la méthode setCellFactory réimplémenter la cellule du tableau comme un champ de texte à l'aide de la classe TextFieldTableCell. La méthode de setOnEditCommit traite édition et attribue la valeur actualisée de la cellule correspondante de la table
+-La classe TableView ne rend pas seulement des données tabulaires, mais il offre également des fonctionnalités pour le modifier. Utilisez la méthode setEditable pour permettre l'édition du contenu de la table. 
+
+-Utilisez la méthode setCellFactory réimplémenter la cellule du tableau comme un champ de texte à l'aide de la classe TextFieldTableCell. La méthode de setOnEditCommit traite édition et attribue la valeur actualisée de la cellule correspondante de la table
 
 firstNameCol.setCellFactory(TextFieldTableCell.forTableColumn());
 firstNameCol.setOnEditCommit(
